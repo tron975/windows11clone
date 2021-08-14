@@ -26,7 +26,7 @@ body {
 }
 
 .h1::before {
-	content: url(https://cdn.artofproblemsolving.com/attachments/1/2/e3a90ed781bdefa7e1bdb79bfbddb2ae1b1d13.png);
+	content: url("https://img.icons8.com/color/48/000000/windows-11.png");
 position: absolute;
 bottom: 2px;
 	z-index: 100;
