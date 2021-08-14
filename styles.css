@@ -26,7 +26,7 @@ body {
 }
 
 .h1::before {
-	content: url(blob:chrome-untrusted://media-app/c567649c-4184-4dbd-90f4-0acc01a77879beda-fullview.png%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjgwIiwicGF0aCI6IlwvZlwvYjEwMzFhYjQtNWY5NC00YTUwLWEzYjItNWYwMTg5MGFhNzkwXC9kZHFiZWRhLWNiMTc2NGMzLTZiMTctNGViZC1hMzdlLTI2YmNlZGRhNGQ2ZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Uuo8ZE4WL66906MXMg-krNh490Abf9tBekxPNleHBVE&f=1&nofb=1);
+	content: url(https://cdn.artofproblemsolving.com/attachments/1/2/e3a90ed781bdefa7e1bdb79bfbddb2ae1b1d13.png);
 position: absolute;
 bottom: 2px;
 	z-index: 100;
