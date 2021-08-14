@@ -26,7 +26,7 @@ body {
 }
 
 .h1::before {
-	content: url(https://static.wikia.nocookie.net/logopedia/images/c/c9/Windows_11_Start_Button.svg/revision/latest/scale-to-width-down/400?cb=20210704141230);
+	content: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2Fb1031ab4-5f94-4a50-a3b2-5f01890aa790%2Fddqbeda-cb1764c3-6b17-4ebd-a37e-26bcedda4d6d.png%2Fv1%2Ffill%2Fw_1280%2Ch_1280%2Cstrp%2Fwindows_10x_logo_by_valentinoct123_ddqbeda-fullview.png%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMjgwIiwicGF0aCI6IlwvZlwvYjEwMzFhYjQtNWY5NC00YTUwLWEzYjItNWYwMTg5MGFhNzkwXC9kZHFiZWRhLWNiMTc2NGMzLTZiMTctNGViZC1hMzdlLTI2YmNlZGRhNGQ2ZC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Uuo8ZE4WL66906MXMg-krNh490Abf9tBekxPNleHBVE&f=1&nofb=1);
 position: absolute;
 bottom: 2px;
 	z-index: 100;
