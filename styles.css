@@ -42,7 +42,6 @@ opacity: 0.6;
 }
 
 .h1:active::before {
-	content: url("https://img.icons8.com/color/48/000000/windows-11.png");
 	transform: scale(0.8, 0.8)
 }
 
