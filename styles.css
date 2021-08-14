@@ -50,3 +50,9 @@ opacity: 0.6;
 	bottom: 5px;
 	right: 5px;
 }
+
+.fa-magnifying-glass {
+position: absolute;
+	bottom: 5px;
+	left: 50%;
+}
