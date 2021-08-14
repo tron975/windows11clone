@@ -7,6 +7,7 @@ body {
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bleepstatic.com%2Fimages%2Fnews%2FMicrosoft%2Fwindows-11%2Fleak%2Fnew-default-wallpaper.jpg&f=1&nofb=1);
 	user-select: none;
 	background-repeat: no-repeat;	
+	white-space: nowrap;
 } 
 
 
