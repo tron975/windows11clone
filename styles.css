@@ -31,7 +31,6 @@ position: absolute;
 bottom: 2px;
 	z-index: 100;
 	left: 50%;
-	transition: 0.1s;
 	transform: scale(0.9);
 	
 }
