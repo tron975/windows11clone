@@ -49,8 +49,8 @@ opacity: 0.6;
 .h1::after {
 	content: "";
 	background-color: rgb(41, 52, 79);
-	width: 1000px;
-	height: 1400px;
+	width: 500px;
+	height: 700px;
 	position: absolute;
 	bottom: 0;
 	left: 40%;
