@@ -52,7 +52,7 @@ opacity: 0.6;
 	width: 500px;
 	height: 600px;
 	position: absolute;
-	bottom: 7px;
+	margin-bottom: 7px;
 	left: 35%;
 	border-radius: 10px;
 	opacity: 0.9;
