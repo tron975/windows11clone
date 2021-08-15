@@ -46,6 +46,13 @@ opacity: 0.6;
 	transform: scale(0.8, 0.8)
 }
 
+.h1::after {
+	content: "";
+	background-color: rgb(41, 52, 79);
+	width: 200px;
+	height: 600px;
+}
+
 #date {
 	position: absolute;
 	bottom: 5px;
