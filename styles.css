@@ -51,6 +51,9 @@ opacity: 0.6;
 	background-color: rgb(41, 52, 79);
 	width: 200px;
 	height: 600px;
+	position: absolute;
+	bottom: 0;
+	
 }
 
 #date {
