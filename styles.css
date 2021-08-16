@@ -50,8 +50,7 @@ opacity: 0.6;
 	transform: scale(0.8, 0.8)
 }
 
-.h1::after {
-	content: "";
+.pop-up {
 	background-color: rgb(41, 52, 79);
 	width: 500px;
 	height: 600px;
@@ -60,6 +59,7 @@ opacity: 0.6;
 	left: 35%;
 	border-radius: 10px;
 	opacity: 0.9;
+	visibility: hidden;
 	
 }
 
