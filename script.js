@@ -1,3 +1,10 @@
-function date() {
-var currentDate = new Date(dateString);
-document.getElementById('date').innerHTML = currentDate.toString()}
+popup = document.querySelector(".pop-up")
+
+function open() {
+    if (popup.style.display = "none") {
+    popup.style.display = "block"
+    }
+    else {
+        popup.style.display = "none"
+    }
+}

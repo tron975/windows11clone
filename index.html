@@ -9,15 +9,16 @@
 	<link rel="stylesheet" type="text/css" href="styles.css"/>
 	<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
 </head>
-<body onLoad = "date()" >
-  <h1 class = "h1" onclick = "document.getElementsByClassName('pop-up').style.visibility = 'visible'">Windows 11</h1>
+<body>
+  <h1 class = "h1" onclick = "open()"></h1>
 	<div class = "nav-bar"></div>
 	<div class = "settings"><i class="fas fa-cog"></i>
 		<div class = "pop-up"></div>
 
-		<div onLoad = "date()" id = "date" style = "position: absolute; bottom: 5px; right: 5px;"></div>
+		<div id = "date" style = "position: absolute; bottom: 5px; right: 5px;"></div>
 		<i class="fas fa-magnifying-glass"></i>
 	
 	</div>
+	<script src = "script.js"></script>
 </body>
 </html>
