@@ -2,6 +2,10 @@
 	--nav-bar-height: 50px;
 }
 
+* {
+	font-family: 'Segoe UI'
+
+}
 
 body {
   	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.bleepstatic.com%2Fimages%2Fnews%2FMicrosoft%2Fwindows-11%2Fleak%2Fnew-default-wallpaper.jpg&f=1&nofb=1);
@@ -11,6 +15,9 @@ body {
 	background-position: center;
 	background-attachment: fixed;
 } 
+
+#start {
+}
 
 
 .nav-bar {
@@ -28,27 +35,22 @@ body {
 	align-items: center;
 }
 
-.h1 {
-	font-size: 0;
+
+
+.nav-bar-options {
+	display: flex;
+	align-items: center;
+	row-gap: 5rem;
+	align-content: space-between
 }
 
-.h1::before {
-	content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEYSURBVHgB7dlNasMwEAXg5/yAoIskN1CO4Bv0BL1Ir9N7dNV9btAus7OWpZvIm1Z1CKpMSVaZEDyBScL7FsZ4kKwnsPFggIjIUiUVnte5KUWPgTIQpj+oP0IExlVTLs0xXFg9zZfHChNphGbx+/HbGWb/p6rF97xUGOHGMYA1BrDGANYYwBoDWGMAa3ccoEKE0rRFi8sIUkHsBybfWCan+45/qat+E+Lj62YBXU8gbqYYYBX6Y8Jw7nDT9adTbURyTqyJAUbj7r0cPQbrUL9lv/mK7XaHBgoPu99YdmNxrHbqIfa4gJSctp0ssjgHX6PWGMAaA1hjAGsMYI0BrDGANTFAznIbd47yiynmDq1zKWao5wogIrpKf8oGP9r4GlyGAAAAAElFTkSuQmCC");
-position: absolute;
-bottom: 2px;
-	z-index: 100;
-	left: 50%;
-	transform: scale(0.9);
-	transition: transform 0.2s;
-	
-}
-
-.h1:hover::before {
+.icon:hover	 {
 cursor: pointer;
-background-color: rgb(255, 255, 255, 0.6);
+background-color: rgb(233, 243, 252);
+transition: 0.2s 
 }
 
-.h1:active::before {
+.icon:active {
 	transform: scale(0.7, 0.7)
 }
 
@@ -74,40 +76,44 @@ background-color: rgb(255, 255, 255, 0.6);
 	right: 5px;
 }
 
-.fa-magnifying-glass {
-position: absolute;
-	bottom: 5px;
-	left: 50%;
-}
-
 @keyframes zoom {
-	0% {transform: scale(0)}
-	100% {transform: scale(1)}
+	0% {bottom: 0; opacity: 0}
+	100% {bottom: 7%; opacity: 0.9}
+	/* 0% {transform: scale(0)}
+	100% {transform: scale(1)} */
 }
 
 @keyframes close {
-	100% {}
+	0% {bottom: 7%; opacity: 0.9}
+	100% {bottom: 0%; opacity: 0}
 }
+
 
 #search {
 	cursor: pointer;
+	height: 40px; 
 }
 
 #search-bar {
 	display: none;
 	border: none;
-	height: 30px;
+	height: 33px;
 	width: 550px;
 	position: absolute;
 	right: 25px;
-	border-radius: 2px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 	border-bottom: 2px solid rgb(22,88,138) !important;
 	box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
 	padding-top: 3%;
 	margin-top: 10px;
+	font-size: 1rem;
+	padding: 0px 3px;
+	color: rgb(152, 152, 152);
+	text-indent: 2ch;
 
 }
 
-#search-bar:focus{
-	border: none !important;
+#search-bar::before{
+	content: url("icon.svg") !important;
 }
