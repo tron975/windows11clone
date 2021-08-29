@@ -60,7 +60,7 @@ opacity: 0.6;
 	left: 35%;
 	border-radius: 10px;
 	opacity: 0.9;
-	visibility: hidden;
+	display: none;
 	
 }
 
