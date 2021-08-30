@@ -18,7 +18,7 @@ body {
 	background-attachment: fixed;
 } 
 
-#start {
+#start:active {
 }
 
 
@@ -53,7 +53,7 @@ transition: 0.2s
 }
 
 .icon:active {
-	transform: scale(0.7, 0.7)
+	transform: scale(0.7, 0.7);
 }
 
 .pop-up {
@@ -132,8 +132,28 @@ transition: 0.2s
 
 .user-avatar {
 	height: 40px;
+	border-radius: 50%;
+	margin-left: 15%;
+	margin-top: 2%;
 
 }
+
+.user-avatar::before {
+	content: "tron975";
+	color: black;
+}
+
+.shut-down {
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	right: 4rem;
+	margin-top: 3%;
+	height: 23px;
+	cursor: pointer;
+}
+
+
 
 .user-avatar::after {
 }
