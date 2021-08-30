@@ -1,5 +1,7 @@
 :root {
 	--nav-bar-height: 50px;
+	--popup-width: 400px;
+	--popup-height: 600px;
 }
 
 * {
@@ -38,13 +40,13 @@ body {
 
 
 .nav-bar-options {
-	display: flex;
-	align-items: center;
-	row-gap: 5rem;
-	align-content: space-between
+
 }
 
 .icon:hover	 {
+display: flex;
+flex-direction: row;
+align-items: center;
 cursor: pointer;
 background-color: rgb(233, 243, 252);
 transition: 0.2s 
@@ -55,7 +57,7 @@ transition: 0.2s
 }
 
 .pop-up {
-	background-color: rgb(233, 243, 252);
+	background-image: linear-gradient(rgb(233, 243, 252) 87%, rgb(212, 222, 241) 15%);
 	width: 400px;
 	height: 600px;
 	position: absolute;
@@ -116,4 +118,22 @@ transition: 0.2s
 
 #search-bar::before{
 	content: url("icon.svg") !important;
+}
+
+.user-options {
+	position: absolute;
+	width: calc(var(--popup-width) + 192px);
+	height: 70px;	
+	bottom: 0px;
+	left: 0; 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.user-avatar {
+	height: 40px;
+
+}
+
+.user-avatar::after {
 }
