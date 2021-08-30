@@ -100,9 +100,9 @@ transition: 0.2s
 	display: none;
 	border: none;
 	height: 33px;
-	width: 550px;
-	position: absolute;
-	right: 25px;
+	width: 525px;
+	position: relative;
+	RIGHT: 26%;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	border-bottom: 2px solid rgb(22,88,138) !important;
@@ -113,6 +113,8 @@ transition: 0.2s
 	padding: 0px 3px;
 	color: rgb(152, 152, 152);
 	text-indent: 2ch;
+	margin-left:  10%;
+	margin-right: 10%;
 
 }
 
@@ -135,6 +137,7 @@ transition: 0.2s
 	border-radius: 50%;
 	margin-left: 15%;
 	margin-top: 2%;
+	user-select: none;
 
 }
 
