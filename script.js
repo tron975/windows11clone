@@ -1,6 +1,7 @@
 popup = document.querySelector(".pop-up")
 const logo = document.getElementById("start");
 const redirect = document.getElementById('search-mask')
+const searchbar = document.getElementById('search-bar')
 
 
 document.getElementById("start").addEventListener('click', open);
@@ -22,6 +23,11 @@ function open() {
 }
 
 function search() {
-    window.location.href = 'https://duckduckgo.com/?q=' + document.getElementById('search-bar').value + '';
+    if (searchbar.value == '') {
+searchbar.style.borderBlock = '2px solid red !important'
+    }
+    else {window.location.href = 'https://duckduckgo.com/?q=' + searchbar.value;
+    searchbar.value = ''
+}
 
 }

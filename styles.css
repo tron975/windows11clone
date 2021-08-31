@@ -43,13 +43,17 @@ body {
 
 }
 
-.icon:hover	 {
-display: flex;
+.nav-bar-options 
+{display: flex;
 flex-direction: row;
-align-items: center;
+	align-items: center;
+justify-content: center;
+gap: 1rem;}
+
+.icon:hover	 {
 cursor: pointer;
 background-color: rgb(233, 243, 252);
-transition: 0.2s 
+transition: ease-in-out 0.2s 
 }
 
 .icon:active {
