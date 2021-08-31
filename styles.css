@@ -108,19 +108,53 @@ transition: 0.2s
 	border-bottom: 2px solid rgb(22,88,138) !important;
 	box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
 	padding-top: 3%;
-	margin-top: 10px;
 	font-size: 1rem;
 	padding: 0px 3px;
-	color: rgb(152, 152, 152);
-	text-indent: 2ch;
+	text-indent: 2.2rem;
 	margin-left:  10%;
 	margin-right: 10%;
+	margin-top: 10px;
 
 }
 
-#search-bar::before{
-	content: url("icon.svg") !important;
+#search-mask {
+	border: none;
+	height: 33px;
+	width: 5px;
+	position: relative;
+	RIGHT: 26%;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: transparent;
+	padding-top: 3%;
+	font-size: 1rem;
+	padding: 0px 3px;
+	text-indent: 2.2rem;
+	margin-left:  10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	transform: translateY(-39px);
+
 }
+
+#search-mask::before {
+	content: url("icon.svg"); 
+	position: relative;
+	right: 28px;
+	cursor: pointer;
+}
+
+.search-icon {
+}
+
+#search-bar:focus {
+	outline: none;
+}
+
+#search-bar::placeholder {
+	color:rgb(152, 152, 152)
+}
+
 
 .user-options {
 	position: absolute;

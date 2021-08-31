@@ -1,8 +1,11 @@
 popup = document.querySelector(".pop-up")
-var logo = document.getElementById("start");
+const logo = document.getElementById("start");
+const redirect = document.getElementById('search-mask')
+
 
 document.getElementById("start").addEventListener('click', open);
-document.getElementById("search").addEventListener("click", open)
+document.getElementById("search").addEventListener("click", open);
+redirect.addEventListener('click', search);
 
 function open() {
     if (popup.style.display == "none") {
@@ -16,4 +19,9 @@ function open() {
         popup.style.animation = "close 0.3s"
         
     }
+}
+
+function search() {
+    window.location.href = 'https://duckduckgo.com/?q=' + document.getElementById('search-bar').value + '';
+
 }
