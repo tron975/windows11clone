@@ -64,7 +64,7 @@ gap: 1rem;}
 
 
 .icon:hover	 {
-cursor: pointer;
+cursor: default;
 }
 
 .icon:active {
